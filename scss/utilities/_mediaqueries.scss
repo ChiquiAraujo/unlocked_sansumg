@@ -1,0 +1,169 @@
+@media (max-width: 700px ){
+    /* --- Header ---*/
+    header {
+        h1{
+            font-size: 5px;
+        }
+    }
+  
+
+    /* --- icons section --- */
+    .div__img {
+        display: flex;
+        flex-wrap: wrap;
+        }
+     /* --- CTA --- */
+        .div__cta {
+            button {
+                width: 150px;
+                padding: 0.75rem;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    /* --- Products 1 --- */
+    
+    .container1 { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        margin: 0;        
+      }
+
+    .area1{
+        width: 100%;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+      
+    .area3 {
+        width: 100%;
+        height: 150px;
+
+     }
+     .p__area3 {
+        text-align: center;
+        padding: 1rem;
+        
+        } 
+    .area4 {
+        width: 100%;
+     }
+    
+    /* --- product2 --- */
+    .div__products2{
+            display: flex;
+            flex-direction: column;
+            img {
+                background-color: #F0F0F0;
+                border-radius: 20px;
+            }
+    } 
+    }
+@media (min-width:700px) and (max-width:900px ){
+    /* --- icons section --- */
+    .div__img {       
+        display: flex;        
+    }
+
+      /* --- CTA --- */
+      .div__cta {
+        button {
+            width: 185px;
+            padding: 0.80rem;
+        }
+        a {
+            font-size: 18px;
+        }
+    }
+   
+    /* --- Products 1 --- */
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1 { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        margin: 0;
+        gap: 0px 0px;
+        padding: 0;
+        grid-auto-flow: row;
+      }
+    
+      .area3{
+        width: 100%;
+        height: 150px;
+        padding: 2rem;
+            
+    }
+    .p__area3 {
+    text-align: center;
+    } 
+
+    .area4 {
+        width: 100%;
+     }
+
+    /* product2 */
+    .div__products2{
+        display: flex;    
+    } 
+
+
+    }
+
+
+@media (min-width:900px){
+    body {
+        width: 900px;
+        margin: 0 auto;
+    }   
+    /*--- Header ---*/
+   
+      /* --- CTA --- */
+      .div__cta {
+        button {
+            width: 200px;
+            padding: 0.85rem;
+        }
+        a {
+            font-size: 20px;
+        }
+    }
+
+
+    }
+     /* --- Products 1 --- */
+     .container1 { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        margin: 0;
+        gap: 0px 0px;
+        padding: 0;
+        grid-auto-flow: row;
+      }
+       
+    .area3{
+        align-items: center;
+        p {
+    font-size: 13px;    
+    
+    }    
+} 
+   /* --- Products 2 --- */ 
+   
+   .div__products2 {
+    display: flex;      
+    img{
+    width: 200px;
+}
+}

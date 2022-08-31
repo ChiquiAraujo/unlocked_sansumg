@@ -1,0 +1,268 @@
+@font-face {
+  font-family: samsungone400;
+  src: url("../font/SamsungOne-400.woff2"); }
+
+@font-face {
+  font-family: samsungone700;
+  src: url("../font/SamsungOne-700.woff2"); }
+
+@font-face {
+  font-family: samsungonesharp;
+  src: url("../font/SamsungSharpSansBd.woff2"); }
+
+@media (max-width: 700px) {
+  /* --- Header ---*/
+  header h1 {
+    font-size: 5px; }
+  /* --- icons section --- */
+  .div__img {
+    display: flex;
+    flex-wrap: wrap; }
+  /* --- CTA --- */
+  .div__cta button {
+    width: 150px;
+    padding: 0.75rem; }
+  .div__cta a {
+    font-size: 16px; }
+  /* --- Products 1 --- */
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0; }
+  .area1 {
+    width: 100%; }
+  .container2 {
+    display: flex;
+    flex-direction: column; }
+  .area3 {
+    width: 100%;
+    height: 150px; }
+  .p__area3 {
+    text-align: center;
+    padding: 1rem; }
+  .area4 {
+    width: 100%; }
+  /* --- product2 --- */
+  .div__products2 {
+    display: flex;
+    flex-direction: column; }
+    .div__products2 img {
+      background-color: #F0F0F0;
+      border-radius: 20px; } }
+
+@media (min-width: 700px) and (max-width: 900px) {
+  /* --- icons section --- */
+  .div__img {
+    display: flex; }
+  /* --- CTA --- */
+  .div__cta button {
+    width: 185px;
+    padding: 0.80rem; }
+  .div__cta a {
+    font-size: 18px; }
+  /* --- Products 1 --- */
+  .container2 {
+    display: flex;
+    flex-direction: column; }
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0;
+    gap: 0px 0px;
+    padding: 0;
+    grid-auto-flow: row; }
+  .area3 {
+    width: 100%;
+    height: 150px;
+    padding: 2rem; }
+  .p__area3 {
+    text-align: center; }
+  .area4 {
+    width: 100%; }
+  /* product2 */
+  .div__products2 {
+    display: flex; } }
+
+@media (min-width: 900px) {
+  body {
+    width: 900px;
+    margin: 0 auto; }
+  /*--- Header ---*/
+  /* --- CTA --- */
+  .div__cta button {
+    width: 200px;
+    padding: 0.85rem; }
+  .div__cta a {
+    font-size: 20px; } }
+
+/* --- Products 1 --- */
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin: 0;
+  gap: 0px 0px;
+  padding: 0;
+  grid-auto-flow: row; }
+
+.area3 {
+  align-items: center; }
+  .area3 p {
+    font-size: 13px; }
+
+/* --- Products 2 --- */
+.div__products2 {
+  display: flex; }
+  .div__products2 img {
+    width: 200px; }
+
+* {
+  font-family: samsung;
+  padding: 0;
+  margin: 0 auto; }
+
+/* --- header --- */
+header {
+  background-color: black;
+  color: white;
+  height: 10rem;
+  text-align: center; }
+  header h1 {
+    font-size: 22px;
+    font-family: samsungonesharp;
+    padding-top: 2rem; }
+  header h2 {
+    font-size: 14px;
+    font-family: samsungone400; }
+
+/* --- icons section --- */
+.div__img {
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  display: flex;
+  padding: 2rem; }
+
+.div__img--flex {
+  width: 180px;
+  display: grid;
+  justify-content: center;
+  text-align: center; }
+  .div__img--flex img {
+    width: 75px; }
+  .div__img--flex p {
+    font-family: samsungone700;
+    font-size: 10px;
+    margin-top: 0.7rem; }
+
+/* --- CTA --- */
+.div__cta {
+  height: 70px;
+  text-align: center; }
+  .div__cta button {
+    background-color: black;
+    border: none;
+    border-radius: 50px; }
+  .div__cta a {
+    text-decoration: none;
+    color: white;
+    font-family: samsungonesharp; }
+
+/* --- Products 1 --- */
+/* .container1 { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0;
+    gap: 0px 0px;
+    padding: 0;
+    grid-auto-flow: row;
+  } */
+.area1 {
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: black;
+  background-image: url(../img/ecosistema_galaxy.png); }
+
+.div__iframe {
+  width: 600px; }
+
+.area2 {
+  width: 300px;
+  height: 300px;
+  background-color: #F0F0F0;
+  grid-area: 1 / 3 / 2 / 4;
+  padding: 3rem;
+  justify-items: flex-end;
+  margin-right: 0; }
+  .area2 h3 {
+    font-family: samsungonesharp;
+    font-size: 18px; }
+  .area2 p {
+    font-family: samsungone700;
+    font-size: 12px; }
+
+.container2 {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row; }
+
+.area3 {
+  background-color: #E5E5E5;
+  grid-area: 1 / 1 / 2 / 3; }
+  .area3 p {
+    font-family: samsungonesharp;
+    font-weight: bold;
+    width: 100%; }
+  .area3 strong {
+    font-family: samsungone700;
+    font-size: 20px; }
+
+.area4 {
+  background-color: #212121; }
+  .area4 img {
+    width: 100%;
+    align-items: center; }
+
+/* product2 */
+.div__products2 {
+  display: flex; }
+  .div__products2 img {
+    width: 200px;
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
+
+/* --- rrss --- */
+.section__rrss {
+  background-color: black;
+  color: white;
+  height: 100px;
+  padding: 1rem; }
+  .section__rrss h4 {
+    font-family: samsungone700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1rem; }
+
+.div__a--rrdd {
+  text-align: center; }
+  .div__a--rrdd a {
+    margin: 1rem; }
+  .div__a--rrdd img {
+    width: 25px; }
+
+/* --- footer --- */
+footer {
+  background-color: #F0F0F0; }
+  footer p {
+    font-family: samsungone400;
+    font-size: 10px;
+    text-align: center;
+    padding: 1rem; }
+
+@media (min-width: 900px) {
+  .area3 {
+    padding: 5rem; } }
